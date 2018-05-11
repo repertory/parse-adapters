@@ -1,0 +1,28 @@
+{
+  "name": "@wang-dong/parse-adapters",
+  "version": "1.0.0",
+  "description": "parse-server adapters",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repertory/parse-adapters.git"
+  },
+  "keywords": [
+    "wangdong",
+    "wang-dong",
+    "parse-server",
+    "adapter",
+    "parse-adapters"
+  ],
+  "author": "wangdong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/repertory/parse-adapters/issues"
+  },
+  "homepage": "https://github.com/repertory/parse-adapters#readme",
+  "dependencies": {
+    "nodemailer": "^4.0.0"
+  }
+}

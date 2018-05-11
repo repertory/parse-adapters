@@ -1,0 +1,7 @@
+.git
+.idea
+.c9
+.*.swp
+.DS_Store
+node_modules
+package-lock.json
