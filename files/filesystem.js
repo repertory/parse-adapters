@@ -3,7 +3,7 @@ const path = require('path');
 
 function FileSystem(options) {
   options = options || {};
-  this.rootDir = options.filesRootDirectory || 'files';
+  this.rootDir = options.filesRootDirectory || path.join(process.cwd(), 'files');
   this.filesDir = options.filesSubDirectory || '';
   this.mkdir(this.getApplicationDir());
   if (!this.applicationDirExist()) {
